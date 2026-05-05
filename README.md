@@ -2,9 +2,9 @@
 
 ## 🧾 Descripción del proyecto
 
-Este proyecto corresponde al desarrollo de la Fase 4 del curso, donde se implementa una aplicación en Python con estructura modular orientada a servicios, modelos y lógica de negocio.
+Este proyecto corresponde al desarrollo de la Fase 4 del curso, donde se implementa una aplicación en Python con estructura modular orientada a objetos, servicios y lógica de negocio.
 
-El sistema permite gestionar diferentes componentes del proyecto a través de una arquitectura organizada en carpetas como `models`, `services` y `main`.
+El sistema permite gestionar clientes, servicios y reservas, aplicando principios de Programación Orientada a Objetos (POO), manejo de excepciones y registro de errores mediante archivos de log.
 
 ---
 
@@ -14,12 +14,13 @@ El sistema permite gestionar diferentes componentes del proyecto a través de un
 proyecto-fase4-grupo213023_379/
 │
 ├── src/
-│   ├── main.py
-│   ├── models/
-│   ├── services/
+│ ├── main.py
+│ ├── models/
+│ ├── services/
+│ ├── exceptions.py
+│ ├── logs/
 │
-├── logs/
-├─── .gitignore
+├── .gitignore
 ├── README.md
 ```
 
@@ -29,7 +30,7 @@ proyecto-fase4-grupo213023_379/
 
 * Python 3.14
 * Git & GitHub
-* Programación orientada a objetos
+* Programación orientada a objetos (POO)
 
 ---
 
@@ -60,19 +61,21 @@ python src/main.py
 * John Fredy Tocanchon Castañeda 
 * Angelica Fernanda Pinzon Albornoz 
 * Jefferson Arley Chaparro Moreno
+* Didyer Hernán Gordo Dussán
 ---
 
 ## 📌 Notas importantes
 
-* Los archivos `__pycache__/` y `.pyc` están ignorados en el repositorio.
-* El archivo `logs/` no se sube a GitHub por buenas prácticas.
-* El proyecto sigue una estructura modular para facilitar mantenimiento.
+* El sistema genera logs en logs/app.log para el registro de errores.
+* Los archivos __pycache__ y .pyc están ignorados en el repositorio.
+* El proyecto sigue una estructura modular para facilitar mantenimiento y escalabilidad.
+* No se incluye base de datos, la información se maneja en memoria mediante objetos y listas.
 
 ---
 
 ## 📈 Estado del proyecto
 
-✔ En desarrollo / Entrega Fase 4
+✔ Proyecto Funcional / Entrega Fase 4
 
 ---
 
